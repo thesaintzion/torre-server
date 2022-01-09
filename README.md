@@ -7,7 +7,7 @@ You can find here the following views:
 
 - `/api/people/search` - Search a any givin user.
 
-- `/api/people/search` - Search a any givin user.
+- `/api/skill/search` - Search people by skill.
 
 ## Local installation
 
