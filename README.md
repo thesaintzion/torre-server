@@ -5,9 +5,9 @@
 
 You can find here the following views:
 
-- `/api/people/search` - Search a any givin user.
+- `/api/people/search` - Search  users by first and last name.
 
-- `/api/skill/search` - Search people by skill.
+- `/api/skill/search` - Search users by their skills.
 
 
 ## Local installation
