@@ -15,4 +15,4 @@ const searchSkillController = async (req: Request, res: Response) => {
        }
 }
 
-export default searchSkillController
+export default searchSkillController;

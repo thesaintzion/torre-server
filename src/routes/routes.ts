@@ -3,10 +3,10 @@ import searchPeopleController from "../controllers/searchPeople.controller";
 import searchPeopleBySkill from "../controllers/searchPeopleBySkill.controller";
 
 const routes = (app: Express) => {
-  app.get("/api/health-status", (req: Request, res: Response) =>
+  app.get("/health-status", (req: Request, res: Response) =>
     res.sendStatus(200)
   );
-
+  
   app.post("/api/people/search", searchPeopleController);
   app.post("/api/skill/search", searchPeopleBySkill);
   
