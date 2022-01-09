@@ -1,6 +1,6 @@
 export default {
     port: 3000,
-    dbUri: 'mongodb+srv://saint123:saintzion123@cluster0-341ff.mongodb.net/mono?retryWrites=true&w=majority',
+    dbUri: process.env.MONGO_URL,
     saltWorkFactor: 10,
     accessTokenTtl: "15m",
     refreshTokenTtl: "1y",
