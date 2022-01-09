@@ -9,13 +9,14 @@ You can find here the following views:
 
 - `/api/skill/search` - Search people by skill.
 
+
 ## Local installation
 
-#### Requirements
+### Requirements
 
 Please you'll need to have NodeJS 14x installed your machine.  [install node from here](https://nodejs.org/en/)
 
-#### Cloning the Repository
+### Cloning the Repository
 
 Run this code in your terminal or else use a Git client.
 
@@ -23,7 +24,7 @@ Run this code in your terminal or else use a Git client.
 git clone https://github.com/thesaintzion/torre-server.git
 ```
 
-#### Running the dev server
+### Running the dev server
 Cd into the root directory and run the following command:
 
 ```bash
@@ -32,7 +33,8 @@ npm run dev
 
 To very the server is running open [http://localhost:4000/health-status](http://localhost:4000/health-status) and you should "OK" on the screen.
 
-#### Project structure
+### Project structure
+
 ```bash
 ├── README.md
 ├── src

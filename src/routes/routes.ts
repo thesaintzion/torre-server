@@ -4,8 +4,7 @@ import searchPeopleBySkill from "../controllers/searchPeopleBySkill.controller";
 
 const routes = (app: Express) => {
   app.get("/health-status", (req: Request, res: Response) =>
-    res.sendStatus(200)
-  );
+    res.sendStatus(200));
   
   app.post("/api/people/search", searchPeopleController);
   app.post("/api/skill/search", searchPeopleBySkill);

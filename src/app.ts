@@ -9,9 +9,7 @@ const app = express();
 // global Middleware configs...
 globalMiddleware(app);
 
-
 const port = configUtil.port;
-
 app.listen(port, async () => {
   logger.info(`App running on http://localhost:${port}`);
   routes(app);
