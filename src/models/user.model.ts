@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import bcrypt from "bcrypt";
-import config from "config";
 import { User } from "../interfaces/User";
+import configUtil from "../utils/config.util";
 
 
 export interface UserDocument extends User, mongoose.Document {
@@ -30,7 +30,7 @@ userSchema.pre("save", async function (next) {
     return next();
   }
 
-  const salt = await bcrypt.genSalt(config.get<number>("saltWorkFactor"));
+  const salt = await bcrypt.genSalt(configUtil.saltWorkFactor);
 
   const hash = await bcrypt.hashSync(user.password, salt);
 

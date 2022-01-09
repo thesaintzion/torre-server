@@ -1,15 +1,13 @@
 import { Request, Response } from "express";
 import { createSessionService } from "../services/session.service";
 import { validatePasswordService } from "../services/user.service";
+import configUtil from "../utils/config.util";
 import { signJwtUtil } from "../utils/jwt.util";
 import log from "../utils/logger.util";
-import config from 'config';
 
-const accessTokenPrivateKey = config.get<string>('accessTokenPrivateKey');
-const accessTokenTtl = config.get<string>('accessTokenTtl');
+const accessTokenPrivateKey =  configUtil.accessTokenPrivateKey;
+const accessTokenTtl =  configUtil.accessTokenTtl;
 
-const refreshTokenPrivateKey = config.get<string>('refreshTokenPrivateKey');
-const refreshTokenTtl = config.get<string>('refreshTokenTtl');
 
 export const createSessionController = async (req: Request, res: Response) => {
   try {

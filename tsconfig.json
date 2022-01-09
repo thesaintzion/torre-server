@@ -99,6 +99,5 @@
     "allowJs": true,                             /* Allow javascript files to be compiled. */
     "outDir": "dist",                              /* Redirect output structure to the directory. */
     "rootDir": "."
-
   },
 }

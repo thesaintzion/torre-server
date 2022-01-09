@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node ./dist/src/app.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "start": "node dist/src/app.js",
     "build": "tsc"
   },
   "repository": {
@@ -19,7 +20,6 @@
   "homepage": "https://github.com/thesaintzion/torre-server#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
-    "config": "^3.3.6",
     "cors": "^2.8.5",
     "dayjs": "^1.10.7",
     "dotenv": "^10.0.0",
