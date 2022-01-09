@@ -1,8 +1,5 @@
 # Documentation
 
-This is the repository with my application for the Software Developer position at [Torre.co](https://torre.co).
-
-
 
 ###  Endpoints
 
@@ -16,10 +13,9 @@ You can find here the following views:
 
 ### Requirements
 
-Please you'll need to have NodeJS 14x installed your machine.  [install node from here](https://nodejs.org/en/).
+Please you'll need to have NodeJS 14x installed your machine.  [install node from here](https://nodejs.org/en/)
 
-
-### Clone The Repository
+### Cloning the Repository
 
 Run this code in your terminal or else use a Git client.
 
@@ -27,8 +23,8 @@ Run this code in your terminal or else use a Git client.
 git clone https://github.com/thesaintzion/torre-server.git
 ```
 
-### Run The dev server
-Cd into the root dir ans run the following command:
+### Running the dev server
+Cd into the root directory and run the following command:
 
 ```bash
 npm run dev
@@ -39,7 +35,7 @@ To very the server is running open [http://localhost:4000/health-status](http://
 
 
 ## Project structure
-
+```bash
 ├── README.md
 ├── src
 │   ├── app.ts
@@ -59,3 +55,4 @@ To very the server is running open [http://localhost:4000/health-status](http://
 │       ├── config.util.ts
 │       └── logger.util.ts
 └── tsconfig.json
+```
