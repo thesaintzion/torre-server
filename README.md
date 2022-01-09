@@ -29,7 +29,7 @@ Cd into the root directory and run the following command:
 npm run dev
 ```
 
-To very the server is running open [http://localhost:4000/health-status](http://localhost:4000/health-status) and you should "OK" on the screen.
+To verify  that the server is running please open [http://localhost:4000/health-status](http://localhost:4000/health-status) and you should "OK" on the screen.
 
 ### Project structure
 
