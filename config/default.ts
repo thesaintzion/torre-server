@@ -69,6 +69,6 @@ export default {
     2RwsQbx3j9SRtfwPQJdoQKotvpnqRTeC7IMNVWPQSdm2WWch3Q9C4C4P353FkWwb
     VvbAeN2nsyQ9DbUm7sVyroMCAwEAAQ==
     -----END PUBLIC KEY-----`,
-    refreshTokenPrivateKey: ``,
-    refreshTokenPublicKey: ``,
+    refreshTokenPrivateKey: `3949595`,
+    refreshTokenPublicKey: `554999229`,
   };

@@ -1,9 +1,11 @@
 import express, { Request, Response } from "express";
 import globalMiddleware from "./middleware/global";
-import dbConnect from "./utils/dbConnect.util";
+// import dbConnect from "./utils/dbConnect.util";
 import logger from './utils/logger.util';
 import routes from "./routes/routes";
 
+
+console.log('yoo========= yoo =========')
 
 const app = express();
 
