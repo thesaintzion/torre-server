@@ -3,7 +3,8 @@
 
 ###  Endpoints
 
-You can find here the following views:
+You find interact with the live deployment:  [here](https://torre-user-api.herokuapp.com/health-status);
+
 
 - `/api/people/search` - Search  users by first and last name.
 
